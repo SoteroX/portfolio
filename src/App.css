@@ -1,33 +1,211 @@
-.App {
+#myVideo {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.header-typist-container {
+  position: absolute;
+  top: 0;
+}
+
+.header-typist-style {
+  font-size: 50px;
+  color: white;
+  font-weight: 300;
+}
+nav a {
+  color: white !important;
+}
+
+.bg-light {
+  transition: 500ms ease;
+  background-color: transparent !important;
+}
+.bg-light.scrolled {
+  background-color: #212121 !important;
+}
+
+/* Skills */
+.skills-sections {
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.skills-title {
+  color: red;
+}
+.skills-subtitle {
+}
+
+.skills-list-item {
+  padding-right: 25px;
+}
+
+.skills-ul-list {
+  list-style: none;
+  padding: 0;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+/* About */
+.about-section {
+  background-image: url("./images/trees.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  height: 50%;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.about-title {
+  margin-top: 90px;
+}
+.about-text {
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Projects */
+.projects-section {
+  padding-top: 80px;
+  padding-bottom: 130px;
+}
+
+/* Footer */
+.footer-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  background-color: #212121;
+  height: 30%;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.footer-sections {
+  padding-right: 10%;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.footer-row {
+  width: 85%;
+}
+
+/********************* Flip Card Styles ********************** */
+.flip-hover {
+  cursor: pointer;
+}
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  padding: 0;
+  background-color: transparent;
+  width: 300px;
+  height: 250px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+/* Media query for small devices, like the iphone5 */
+@media (max-width: 330px) {
+  .header-typist-style {
+    font-size: 25px;
   }
-  to {
-    transform: rotate(360deg);
+  /* Skills */
+  .skills-sections {
+    height: 150%;
+  }
+  .skills-list-item {
+    padding: 0;
+  }
+
+  /* About  */
+  .about-section {
+    height: 100%;
+  }
+  /* Footer */
+  .footer-container {
+    height: 100%;
+  }
+  .footer-sections {
+    padding-right: 0;
+    padding-left: 0;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .footer-row {
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+}
+
+@media (min-width: 331px) and (max-width: 556px) {
+  .header-typist-style {
+    font-size: 30px;
+  }
+  /* Skills */
+  .skills-sections {
+    height: 100%;
+  }
+  .skills-list-item {
+    padding: 0;
+  }
+  /* About */
+  .about-section {
+    height: 100%;
+  }
+  /* Footer */
+  .footer-container {
+    height: 100%;
+  }
+  .footer-sections {
+    padding-right: 0;
+    padding-left: 0;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .footer-row {
+    width: 100%;
+    flex-direction: column-reverse;
   }
 }
