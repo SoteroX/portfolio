@@ -1,4 +1,7 @@
 import ocelot from "../../images/ocelot.png";
+import ireview from "../../images/ireview.png";
+import electtro_site from "../../images/electtro_site.png";
+import freelancer from "../../images/freelancer.png";
 import comingSoon from "../../images/coming-soon.jpg";
 
 export const list = [
@@ -7,9 +10,9 @@ export const list = [
     title: "Elettrorapido Site",
     description: "",
     comingsoon: false,
-    site: "",
+    site: "https://antek-aad-mu.000webhostapp.com/",
     repo: "",
-    image: comingSoon,
+    image: electtro_site,
     stack: ["React", "Node", "Bootstrap"]
   },
   {
@@ -28,8 +31,8 @@ export const list = [
     description:
       "Ocelot is a project managment app which I created to be able to keep track of tasks and issues while being able to chat with your coworkers",
     comingsoon: false,
-    site: "",
-    repo: "",
+    site: "https://ocelot13.herokuapp.com/",
+    repo: "https://github.com/SoteroX/ocelot",
     image: ocelot,
     stack: [
       "React",
@@ -48,7 +51,7 @@ export const list = [
     comingsoon: true,
     site: "",
     repo: "",
-    image: comingSoon,
+    image: freelancer,
     stack: ["Ruby on Rails", "Bulma", "Postgres", "jQuery"]
   },
   {
@@ -56,9 +59,9 @@ export const list = [
     title: "iReviews",
     description: "",
     comingsoon: false,
-    site: "",
-    repo: "",
-    image: comingSoon,
+    site: "https://reviewsite-74d74.firebaseapp.com/movies",
+    repo: "https://github.com/SoteroX/iReview",
+    image: ireview,
     stack: ["React", "Redux", "Bootstrap", "Firebase"]
   }
 ];
