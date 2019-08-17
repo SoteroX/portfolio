@@ -211,19 +211,6 @@ nav a {
   transform: rotateY(180deg);
 }
 
-@media (min-width: 768px) and (max-width: 1025px) {
-  /* Projects */
-  .projects-card-title {
-    font-size: 26px;
-  }
-  /* Flip card */
-  .flip-card {
-    min-width: 50% !important;
-    max-height: 300px;
-    height: 300px;
-  }
-}
-
 /* Media query for small devices, like the iphone5 */
 @media (max-width: 330px) {
   .header-typist-style {
@@ -383,10 +370,26 @@ nav a {
     font-size: 24px;
   }
   /* Footer */
-
+  .footer-container {
+    height: 40%;
+  }
   /* Flip card */
   .flip-card {
     max-height: 300px;
     height: 300px !important;
+  }
+}
+
+/* tablets portrait mode */
+@media (min-width: 768px) and (max-width: 1025px) {
+  /* Projects */
+  .projects-card-title {
+    font-size: 26px;
+  }
+  /* Flip card */
+  .flip-card {
+    min-width: 50% !important;
+    max-height: 300px;
+    height: 300px;
   }
 }
