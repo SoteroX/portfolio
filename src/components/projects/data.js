@@ -47,7 +47,8 @@ export const list = [
   {
     id: 3,
     title: "Freelancer_Jobs",
-    description: "",
+    description:
+      "Freelancer_Jobs is a marketplace site where people can post a job or bet on a project to work on. The project owner can keep track of deadlines on multiple projects.",
     comingsoon: true,
     site: "",
     repo: "",
@@ -57,7 +58,8 @@ export const list = [
   {
     id: 4,
     title: "iReviews",
-    description: "",
+    description:
+      "iReviews is a movie review app where people can rate and review movies. This project was created to be apart of Grindreel community project contest.",
     comingsoon: false,
     site: "https://reviewsite-74d74.firebaseapp.com/movies",
     repo: "https://github.com/SoteroX/iReview",

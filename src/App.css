@@ -87,6 +87,7 @@ nav a {
 .projects-card-btn-outline {
   color: #00ffa9 !important;
   border-color: #00ffa9;
+  background-color: #2121;
 }
 .projects-card-btn-outline:hover {
   color: white !important;

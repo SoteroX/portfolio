@@ -53,18 +53,28 @@ export default function Projects() {
                   justifyContent: "space-around"
                 }}
               >
-                <button
-                  type="button"
-                  className="btn btn-outline-success projects-card-btn-outline"
-                >
-                  View Site
-                </button>
-                <button
-                  type="button"
-                  className="btn btn-success projects-card-btn"
-                >
-                  View Repo
-                </button>
+                {val.site ? (
+                  <a
+                    href={val.site}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    type="button"
+                    className="btn btn-outline-success projects-card-btn-outline"
+                  >
+                    View Site
+                  </a>
+                ) : null}
+                {val.repo ? (
+                  <a
+                    href={val.repo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    type="button"
+                    className="btn btn-success projects-card-btn"
+                  >
+                    View Repo
+                  </a>
+                ) : null}
               </div>
             </div>
           </div>
@@ -85,6 +95,9 @@ export default function Projects() {
       }}
     >
       <h1 style={{ color: "#00ffa9" }}>Projects</h1>
+      <p className="lead">
+        *Projects that are hosted on Heroku might take a few seconds to startup
+      </p>
 
       <div className="row" style={{ width: "100%" }}>
         {projectList}
