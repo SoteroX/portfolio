@@ -18,10 +18,10 @@ export default function Skills() {
           </h3>
           <ul className="skills-ul-list">
             <li>HTML</li>
-            <li>CSS</li>
-            <li>Javascript</li>
+            <li>CSS/SASS</li>
+            <li>Javascript/ES6</li>
             <li>jQuery</li>
-            <li>React</li>
+            <li>React/Redux</li>
             <li>Bootstrap</li>
             <li>Semantic-UI</li>
             <li>Material UI</li>

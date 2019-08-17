@@ -124,7 +124,7 @@ nav a {
   justify-content: center;
   align-items: center;
   background-color: #212121;
-  height: 30%;
+  height: 40%;
   color: white;
 }
 
@@ -257,7 +257,7 @@ nav a {
   }
 }
 
-@media (min-width: 331px) and (max-width: 556px) {
+@media (min-width: 331px) and (max-width: 760px) {
   .header-typist-style {
     font-size: 30px;
   }
@@ -359,7 +359,7 @@ nav a {
 }
 
 /* Media queries for tablets landscape mode */
-@media (min-width: 1024px) and (min-height: 760px) and (max-width: 1370px) and (max-height: 1024px) {
+@media (min-width: 1024px) and (min-height: 630px) and (max-width: 1370px) and (max-height: 1024px) {
   /* Header */
   /* Skills */
 
@@ -371,7 +371,7 @@ nav a {
   }
   /* Footer */
   .footer-container {
-    height: 60%;
+    height: 40%;
   }
   /* Flip card */
   .flip-card {
