@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <div id="contact" className="container-fluid footer-container">
       <div className="row footer-row">
-        <div className="col-12 col-md-4 footer-sections">
+        <div className="col-12 col-md-4 footer-sections footer-twitter-section">
           <TwitterTimelineEmbed
             sourceType="profile"
             screenName="SoteroX13"
