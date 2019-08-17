@@ -33,6 +33,7 @@ export default function Footer() {
           </a>
           <div>
             <a
+              rel="noopener noreferrer"
               href="https://www.linkedin.com/in/dominic-bales-4a2219117/"
               target="_blank"
               className="footer-social-links"
@@ -40,6 +41,7 @@ export default function Footer() {
               <i className="fab fa-linkedin" />
             </a>
             <a
+              rel="noopener noreferrer"
               href="https://github.com/SoteroX"
               target="_blank"
               className="footer-social-links"
@@ -47,6 +49,7 @@ export default function Footer() {
               <i className="fab fa-github-square" />
             </a>
             <a
+              rel="noopener noreferrer"
               href="https://twitter.com/SoteroX13"
               target="_blank"
               className="footer-social-links"

@@ -1,5 +1,4 @@
 import React from "react";
-import Trees from "../../images/trees.jpg";
 
 export default function About() {
   return (
