@@ -10,11 +10,13 @@
 
 .header-typist-style {
   font-size: 50px;
+  text-shadow: 2px 2px 5px #212121;
   color: white;
   font-weight: 300;
 }
 nav a {
   color: white !important;
+  text-shadow: 2px 2px 5px #212121;
 }
 
 .bg-light {
@@ -34,7 +36,7 @@ nav a {
   flex-direction: column;
 }
 .skills-title {
-  color: red;
+  color: #00ffa9;
 }
 .skills-subtitle {
 }
@@ -65,6 +67,7 @@ nav a {
 }
 .about-title {
   margin-top: 90px;
+  text-shadow: 2px 2px 5px #212121;
 }
 .about-text {
 }
@@ -73,6 +76,46 @@ nav a {
 .projects-section {
   padding-top: 80px;
   padding-bottom: 130px;
+}
+.projects-card-header-container {
+  padding: 20px;
+}
+.projects-card-title {
+}
+.projects-card-text {
+}
+.projects-card-btn-outline {
+  color: #00ffa9 !important;
+  border-color: #00ffa9;
+}
+.projects-card-btn-outline:hover {
+  color: white !important;
+  border-color: #00ffa9;
+  background-color: #00ffa9;
+}
+.projects-card-btn-outline:active {
+  background-color: #00ffa9a1 !important;
+  border-color: #00ffa9 !important;
+}
+.projects-card-btn-outline:focus {
+  box-shadow: 0 0 0 0.2rem #00ffa9;
+}
+
+.projects-card-btn {
+  color: white !important;
+  border-color: #00ffa9;
+  background-color: #00ffa9;
+}
+.projects-card-btn:hover {
+  color: white !important;
+  background-color: #00ffa9a1;
+}
+.projects-card-btn:active {
+  background-color: #00ffa9a1 !important;
+  border-color: #00ffa9 !important;
+}
+.projects-card-btn:focus {
+  box-shadow: 0 0 0 0.2rem #00ffa9;
 }
 
 /* Footer */
@@ -92,6 +135,29 @@ nav a {
 
 .footer-row {
   width: 85%;
+}
+.footer-social-links {
+  font-size: 35px;
+  padding: 5px;
+  color: white;
+}
+.footer-social-links:hover {
+  color: #00ffa9;
+}
+
+.footer-links {
+  color: white;
+  font-size: 24px;
+}
+.footer-contact-email {
+  color: white;
+}
+.footer-contact-email:hover {
+  color: #00ffa9;
+}
+
+.footer-links:hover {
+  color: #00ffa9;
 }
 
 /********************* Flip Card Styles ********************** */
@@ -141,7 +207,7 @@ nav a {
 
 /* Style the back side */
 .flip-card-back {
-  background-color: dodgerblue;
+  background-color: #212121;
   color: white;
   transform: rotateY(180deg);
 }
@@ -162,6 +228,16 @@ nav a {
   /* About  */
   .about-section {
     height: 100%;
+  }
+  /* Projects */
+  .projects-card-header-container {
+    padding: 0px;
+  }
+  .projects-card-title {
+    font-size: 24px;
+  }
+  .projects-card-text {
+    font-size: 14px;
   }
   /* Footer */
   .footer-container {
@@ -185,7 +261,7 @@ nav a {
   }
   /* Skills */
   .skills-sections {
-    height: 100%;
+    height: 120%;
   }
   .skills-list-item {
     padding: 0;
@@ -193,6 +269,16 @@ nav a {
   /* About */
   .about-section {
     height: 100%;
+  }
+  /* Projects */
+  .projects-card-header-container {
+    padding: 0px;
+  }
+  .projects-card-title {
+    font-size: 24px;
+  }
+  .projects-card-text {
+    font-size: 14px;
   }
   /* Footer */
   .footer-container {

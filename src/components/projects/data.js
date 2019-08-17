@@ -1,4 +1,5 @@
 import ocelot from "../../images/ocelot.png";
+import comingSoon from "../../images/coming-soon.jpg";
 
 export const list = [
   {
@@ -8,6 +9,7 @@ export const list = [
     comingsoon: false,
     site: "",
     repo: "",
+    image: comingSoon,
     stack: ["React", "Node", "Bootstrap"]
   },
   {
@@ -17,6 +19,7 @@ export const list = [
     comingsoon: true,
     site: "",
     repo: "",
+    image: comingSoon,
     stack: ["React", "Node", "Redux", "MYSQL", "Electron", "Express"]
   },
   {
@@ -45,6 +48,7 @@ export const list = [
     comingsoon: true,
     site: "",
     repo: "",
+    image: comingSoon,
     stack: ["Ruby on Rails", "Bulma", "Postgres", "jQuery"]
   },
   {
@@ -54,6 +58,7 @@ export const list = [
     comingsoon: false,
     site: "",
     repo: "",
+    image: comingSoon,
     stack: ["React", "Redux", "Bootstrap", "Firebase"]
   }
 ];

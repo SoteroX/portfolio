@@ -18,19 +18,55 @@ export default function Projects() {
               style={{ width: "100%", height: "100%" }}
             />
           </div>
-          <div className="flip-card-back">
-            <h1>{val.title}</h1>
-            <p>{val.description}</p>
-            <div className="container">
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "space-between"
+            }}
+            className="flip-card-back"
+          >
+            <div className="projects-card-header-container">
+              <h1 className="projects-card-title">{val.title}</h1>
+              <p className="projects-card-text">{val.description}</p>
+            </div>
+
+            <div style={{ paddingBottom: "15px" }} className="container">
               {val.stack.map((val, idx) => {
                 return (
-                  <span key={idx} className="badge badge-pill badge-success">
+                  <span
+                    key={idx}
+                    style={{
+                      color: "#212121",
+                      backgroundColor: "#00ffa9"
+                    }}
+                    className="badge badge-pill"
+                  >
                     {val}
                   </span>
                 );
               })}
+              <div
+                style={{
+                  paddingTop: "10px",
+                  display: "flex",
+                  justifyContent: "space-around"
+                }}
+              >
+                <button
+                  type="button"
+                  className="btn btn-outline-success projects-card-btn-outline"
+                >
+                  View Site
+                </button>
+                <button
+                  type="button"
+                  className="btn btn-success projects-card-btn"
+                >
+                  View Repo
+                </button>
+              </div>
             </div>
-            <button onClick={() => console.log("click")}>click</button>
           </div>
         </div>
       </div>
@@ -48,7 +84,7 @@ export default function Projects() {
         alignItems: "center"
       }}
     >
-      <h1>Projects</h1>
+      <h1 style={{ color: "#00ffa9" }}>Projects</h1>
 
       <div className="row" style={{ width: "100%" }}>
         {projectList}

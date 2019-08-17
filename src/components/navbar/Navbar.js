@@ -15,7 +15,9 @@ export default function Navbar() {
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span className="navbar-toggler-icon" />
+        <span>
+          <i style={{ color: "white" }} className="fas fa-bars" />
+        </span>
       </button>
 
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
