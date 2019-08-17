@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3161f1d15e1f8980af1741b6148cc54b",
+    "revision": "55cf989f5ba915e04e6b1dc3772f1e01",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "3611db4c500b24f7e53b",
+    "revision": "c6eca3d67448a57f21a2",
     "url": "/portfolio/static/css/main.c755ba75.chunk.css"
   },
   {
-    "revision": "215c4e2b4bdf1be375b3",
-    "url": "/portfolio/static/js/2.1942b657.chunk.js"
+    "revision": "9d618443d665c1d3be68",
+    "url": "/portfolio/static/js/2.a83440af.chunk.js"
   },
   {
-    "revision": "3611db4c500b24f7e53b",
-    "url": "/portfolio/static/js/main.14f6f00d.chunk.js"
+    "revision": "c6eca3d67448a57f21a2",
+    "url": "/portfolio/static/js/main.f9433b46.chunk.js"
   },
   {
     "revision": "5029282666060c428c88",
@@ -26,6 +26,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "60e95aed3fd28b3638312d2253d0963b",
     "url": "/portfolio/static/media/coming-soon.60e95aed.jpg"
+  },
+  {
+    "revision": "fd88642788c9447c7131d754aedaed1a",
+    "url": "/portfolio/static/media/electtro_site.fd886427.png"
+  },
+  {
+    "revision": "e1344945b5c168753d0681091f6af0d1",
+    "url": "/portfolio/static/media/freelancer.e1344945.png"
+  },
+  {
+    "revision": "15dc927d9f0588969a2c6f314ee4d6b0",
+    "url": "/portfolio/static/media/ireview.15dc927d.png"
   },
   {
     "revision": "593854e85d79592b3c7a416c3202eede",
