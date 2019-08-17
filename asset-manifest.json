@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.85c18df0.chunk.css",
+    "main.css": "/portfolio/static/css/main.c755ba75.chunk.css",
     "main.js": "/portfolio/static/js/main.14f6f00d.chunk.js",
     "main.js.map": "/portfolio/static/js/main.14f6f00d.chunk.js.map",
     "runtime~main.js": "/portfolio/static/js/runtime~main.cbff171f.js",
@@ -8,9 +8,9 @@
     "static/js/2.1942b657.chunk.js": "/portfolio/static/js/2.1942b657.chunk.js",
     "static/js/2.1942b657.chunk.js.map": "/portfolio/static/js/2.1942b657.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.0bdf6fc728a1c9d7c3670ef934e1079a.js": "/portfolio/precache-manifest.0bdf6fc728a1c9d7c3670ef934e1079a.js",
+    "precache-manifest.d00b198a88243fd56e1fb005f90b7d1e.js": "/portfolio/precache-manifest.d00b198a88243fd56e1fb005f90b7d1e.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.85c18df0.chunk.css.map": "/portfolio/static/css/main.85c18df0.chunk.css.map",
+    "static/css/main.c755ba75.chunk.css.map": "/portfolio/static/css/main.c755ba75.chunk.css.map",
     "static/media/Office3.mp4": "/portfolio/static/media/Office3.5cdb9d41.mp4",
     "static/media/coming-soon.jpg": "/portfolio/static/media/coming-soon.60e95aed.jpg",
     "static/media/ocelot.png": "/portfolio/static/media/ocelot.593854e8.png",
