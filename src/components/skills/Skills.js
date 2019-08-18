@@ -50,8 +50,10 @@ export default function Skills() {
             <li>Azure DevOps</li>
             <li>Git</li>
             <li>Github</li>
+            <li>Webpack</li>
             <li>Heroku</li>
-            <li>VS Code</li>
+            <li>NPM</li>
+            <li>YARN</li>
           </ul>
         </div>
       </div>
