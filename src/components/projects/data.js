@@ -8,22 +8,24 @@ export const list = [
   {
     id: 0,
     title: "Elettrorapido Site",
-    description: "",
+    description:
+      "Elettrorapido Site is the website for companies desktop application called Elettrorapido. Currently the site is still in development.",
     comingsoon: false,
     site: "https://antek-aad-mu.000webhostapp.com/",
     repo: "",
     image: electtro_site,
-    stack: ["React", "Node", "Bootstrap"]
+    stack: ["React", "Node", "Express", "MySQL", "Bootstrap"]
   },
   {
     id: 1,
     title: "Elettrorapido Desktop",
-    description: "",
+    description:
+      "Electtrorapido is a desktop app that allows electricians to create invoice's for their clients. Electricians can select products from our databases and calculate the pricings for their clients which also includes any discount or labor cost.",
     comingsoon: true,
     site: "",
     repo: "",
     image: comingSoon,
-    stack: ["React", "Node", "Redux", "MYSQL", "Electron", "Express"]
+    stack: ["React", "Node", "Redux", "MySQL", "Electron", "Express"]
   },
   {
     id: 2,

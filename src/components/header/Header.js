@@ -44,7 +44,7 @@ export default function Header() {
               className="header-typist-style"
               avgTypingDelay={130}
             >
-              Hi! I'm Dominic
+              Hello! I'm Dominic
             </Typist>
           </Animated>
         </div>

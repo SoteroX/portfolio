@@ -39,7 +39,7 @@ export default function Skills() {
             <li>JWT</li>
             <li>Passport</li>
             <li>Firebase</li>
-            <li>RESTFul API</li>
+            <li>RESTful API</li>
           </ul>
         </div>
         <div className="col-12 col-md-4">
@@ -54,6 +54,7 @@ export default function Skills() {
             <li>Heroku</li>
             <li>NPM</li>
             <li>YARN</li>
+            <li>Postman</li>
           </ul>
         </div>
       </div>
