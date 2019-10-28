@@ -1,7 +1,7 @@
 import React from "react";
 import Typist from "react-typist";
 import { Animated } from "react-animated-css";
-import Office from "../../video/Office3.mp4";
+import videoSrc from "../../video/stars.mp4";
 
 export default function Header() {
   return (
@@ -15,7 +15,7 @@ export default function Header() {
       }}
     >
       <video autoPlay muted loop id="myVideo">
-        <source src={Office} type="video/mp4" />
+        <source src={videoSrc} type="video/mp4" />
       </video>
       <div
         className="header-typist-container"
