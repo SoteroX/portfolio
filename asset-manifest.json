@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.78a8a5e2.chunk.css",
-    "main.js": "/static/js/main.e84d15db.chunk.js",
-    "main.js.map": "/static/js/main.e84d15db.chunk.js.map",
+    "main.js": "/static/js/main.a6365bab.chunk.js",
+    "main.js.map": "/static/js/main.a6365bab.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.daaf4d4d.js",
     "runtime~main.js.map": "/static/js/runtime~main.daaf4d4d.js.map",
     "static/js/2.a83440af.chunk.js": "/static/js/2.a83440af.chunk.js",
     "static/js/2.a83440af.chunk.js.map": "/static/js/2.a83440af.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.fc778c9781c83bf54ba59e643ca56122.js": "/precache-manifest.fc778c9781c83bf54ba59e643ca56122.js",
+    "precache-manifest.84775e1b8736e347d3fd15c9fee4fd33.js": "/precache-manifest.84775e1b8736e347d3fd15c9fee4fd33.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.78a8a5e2.chunk.css.map": "/static/css/main.78a8a5e2.chunk.css.map",
-    "static/media/Office3.mp4": "/static/media/Office3.5cdb9d41.mp4",
     "static/media/coming-soon.jpg": "/static/media/coming-soon.60e95aed.jpg",
     "static/media/electtro_site.png": "/static/media/electtro_site.fd886427.png",
     "static/media/freelancer.png": "/static/media/freelancer.e1344945.png",
     "static/media/ireview.png": "/static/media/ireview.15dc927d.png",
     "static/media/ocelot.png": "/static/media/ocelot.593854e8.png",
+    "static/media/stars.mp4": "/static/media/stars.d4d73980.mp4",
     "static/media/App.css": "/static/media/trees.0fe49f3a.jpg"
   }
 }
