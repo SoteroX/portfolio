@@ -1,0 +1,34 @@
+.header-section {
+  height: 100%;
+  width: 100%;
+  background-image: url("../../images/header-bg1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+}
+
+.typist-container {
+  margin-top: 10%;
+}
+
+@include media-breakpoint-down(lg) {
+  .typist-container {
+    margin-top: 40%;
+  }
+}
+
+@include media-breakpoint-between(sm, md) {
+  .typist-container {
+    margin-top: 40%;
+  }
+}
+
+@include media-breakpoint-down(xs) {
+  .typist-container {
+    margin-top: 50%;
+    font-size: 0.8em;
+  }
+}

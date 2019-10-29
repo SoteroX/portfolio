@@ -7,7 +7,10 @@ import Projects from "./components/projects/Projects";
 import Skills from "./components/skills/Skills";
 import Footer from "./components/footer/Footer";
 
-import "./App.css";
+// import "./App.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
+
+import "./styles/index.scss";
 
 function App() {
   return (

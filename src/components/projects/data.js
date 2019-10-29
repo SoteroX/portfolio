@@ -20,7 +20,7 @@ export const list = [
     id: 1,
     title: "Elettrorapido Desktop",
     description:
-      "Electtrorapido is a desktop app that allows electricians to create invoice's for their clients. Electricians can select products from our databases and calculate the pricings for their clients which also includes any discount or labor cost.",
+      "Electtrorapido is a desktop app that allows electricians to create invoice's for their clients and allows them to print it out.",
     comingsoon: true,
     site: "",
     repo: "",
@@ -31,7 +31,7 @@ export const list = [
     id: 2,
     title: "Ocelot",
     description:
-      "Ocelot is a project managment app which I created to be able to keep track of tasks and issues while being able to chat with your coworkers",
+      "Ocelot is a project managment app which helps to keep track of tasks and issues while being able to chat with your coworkers",
     comingsoon: false,
     site: "https://ocelot13.herokuapp.com/",
     repo: "https://github.com/SoteroX/ocelot",

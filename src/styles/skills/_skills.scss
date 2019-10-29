@@ -1,0 +1,32 @@
+.skill-section {
+  min-height: 100%;
+  display: flex;
+}
+
+.skill-header {
+  text-align: center;
+}
+
+.skill-content-area {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  // align-items: center;
+  flex-direction: column;
+}
+
+.skill-col-style {
+  text-align: center;
+}
+
+.skill-list-header {
+  text-align: center;
+  text-decoration: line-through;
+}
+
+.skills-ul-list {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  font-size: 0.5em;
+}

@@ -1,0 +1,27 @@
+nav a {
+  color: black !important;
+  //   text-shadow: 2px 2px 5px #212121;
+}
+
+.navbar-brand,
+.nav-item {
+  font-size: 0.8em;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: rgb(0, 0, 0) !important;
+}
+
+.bg-light {
+  transition: 500ms ease;
+  background-color: transparent !important;
+}
+.bg-light.scrolled {
+  background-color: #212121 !important;
+  a {
+    color: white !important;
+  }
+  i {
+    color: white !important;
+  }
+}

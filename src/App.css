@@ -6,12 +6,24 @@
 .header-typist-container {
   position: absolute;
   top: 0;
+  margin-top: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-
+#home {
+  background-image: url("./images/header-bg1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 .header-typist-style {
   font-size: 50px;
   text-shadow: 2px 2px 5px #212121;
-  color: white;
+  color: #000000;
+
   font-weight: 300;
 }
 nav a {
@@ -221,6 +233,9 @@ nav a {
   .header-typist-style {
     font-size: 25px;
   }
+  .header-typist-container {
+    margin-top: 60%;
+  }
   /* Skills */
   .skills-sections {
     height: 150%;
@@ -270,6 +285,9 @@ nav a {
 @media (min-width: 331px) and (max-width: 760px) {
   .header-typist-style {
     font-size: 30px;
+  }
+  .header-typist-container {
+    margin-top: 60%;
   }
   /* Skills */
   .skills-sections {
@@ -376,6 +394,9 @@ nav a {
 /* Media queries for tablets landscape mode */
 @media (min-width: 1024px) and (min-height: 630px) and (max-width: 1370px) and (max-height: 1024px) {
   /* Header */
+  .header-typist-container {
+    margin-top: 10%;
+  }
   /* Skills */
 
   /* About */
@@ -397,6 +418,9 @@ nav a {
 
 /* tablets portrait mode */
 @media (min-width: 768px) and (max-width: 1025px) {
+  .header-typist-container {
+    margin-top: 25%;
+  }
   /* Projects */
   .projects-card-title {
     font-size: 26px;

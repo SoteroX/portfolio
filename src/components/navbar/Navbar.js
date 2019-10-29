@@ -16,7 +16,7 @@ export default function Navbar() {
         aria-label="Toggle navigation"
       >
         <span>
-          <i style={{ color: "white" }} className="fas fa-bars" />
+          <i style={{ color: "rgba(0,0,0,.9) " }} className="fas fa-bars" />
         </span>
       </button>
 
