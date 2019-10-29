@@ -18,6 +18,9 @@
   .typist-container {
     margin-top: 40%;
   }
+  .header-section {
+    background-attachment: unset;
+  }
 }
 
 @include media-breakpoint-between(sm, md) {
